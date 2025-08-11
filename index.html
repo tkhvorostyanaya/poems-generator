@@ -7,42 +7,45 @@
     <title>AI Poem generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        La tombe dit à la rose
-        <br />
-        Des pleurs dont l'aube t'arrose
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/tkhvorostyanaya" target="_blank"
-        >Tetiana Khvorostiana</a
-      >
-      <a
-        href="https://github.com/tkhvorostyanaya/poems-generator"
-        target="_blank"
-      >
-        on GitHub</a
-      >
-      and
-      <a href="https://best-poems-generator.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to the Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          La tombe dit à la rose
+          <br />
+          Des pleurs dont l'aube t'arrose
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/tkhvorostyanaya" target="_blank"
+          >Tetiana Khvorostiana</a
+        >
+        <a
+          href="https://github.com/tkhvorostyanaya/poems-generator"
+          target="_blank"
+        >
+          on GitHub</a
+        >
+        and
+        <a href="https://best-poems-generator.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
